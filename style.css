@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:  hsl(0, 0%, 100%);
+    min-width: 1340px;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* ==========================START MAIN AREA================================== */
+header{
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* =========================START NAVBAR AREA================================= */
+.bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+#ham{
+  display: none;
+}
+
+.bar-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.bar-li{
+  list-style: none;
+}
+
+.bar-a{
+  text-decoration: none;
+  font-family: "Barlow";
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.bar-a:hover{
+  padding: 0.6rem;
+  background-color: hsl(210, 4%, 67%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+/* =========================END NAVBAR AREA================================= */
+/* =========================START HOME AREA================================ */
+
+
+#home{
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ padding-bottom: 300px;
+}
+
+.home-h1{
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.arrow{
+  margin-top: 10rem;
+}
+/* =========================END HOME AREA================================ */
+/* =========================START ABOUT AREA=============================== */
+.brand, .stand{
+  display: flex;
+}
+
+.info{
+  width: 50%;
+  padding:4rem;
+}
+
+.info-img{
+  width: 50%;
+}
+
+.brand-h2{
+  margin-top: 4rem;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-weight: 2.5rem;
+  line-height: 2rem;
+  width: 200px;
+}
+.stand-h2{
+  margin-top: 4rem;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-weight: 2.5rem;
+  line-height: 2rem;
+  width: 300px;
+}
+
+.brand-para, .stand-para{
+  font-family: "Barlow";
+  font-weight: 600;
+  font-weight: 1.2rem;
+  margin-top: 1.5rem;
+  color: hsl(232, 10%, 55%);
+  width: 25rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.brand-a{
+  font-family: "Barlow";
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration-color: hsl(7, 99%, 70%);
+  color: hsl(212, 27%, 19%);
+  text-decoration-thickness: 3px;
+}
+
+.stand-a{
+  font-family: "Barlow";
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration-color: hsl(51, 100%, 49%);
+  color: hsl(212, 27%, 19%);
+  text-decoration-thickness: 3px;
+}
+/* =========================END ABOUT AREA=============================== */
+/* =========================START SERVICE AREA=========================== */
+#service{
+  display: flex;
+    height: 600px;
+}
+
+.vice{
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vice1{
+  background-image: url(./images/desktop/image-photography.jpg);
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vice-h2{
+  margin-top: 400px;
+  font-family:"Fraunces";
+  font-size: 2rem;
+  font-weight: 700;
+  color:  hsl(167, 40%, 24%);
+}
+
+.vice-para{
+  margin-top: 50px;
+  color: hsl(167, 40%, 24%);
+  width: 400px;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-left: 140px;
+}
+
+.vice1-h2{
+  margin-top: 400px;
+  font-family:"Fraunces";
+  font-size: 2rem;
+  font-weight: 700;
+  color:   hsl(198, 62%, 26%);
+}
+
+.vice1-para{
+  margin-top: 50px;
+  color:  hsl(198, 62%, 26%);
+  width: 400px;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-left: 140px;
+  line-height: 1.5rem;
+}
+/* =========================END SERVICE AREA=========================== */
+/* =========================START CLIENT AREA=========================== */
+#client{
+  text-align: center;
+  align-items: center;
+ padding-bottom: 8rem;
+}
+
+.client-h3{
+  margin-top: 150px;
+  font-family: "Fraunces";
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: hsl(232, 10%, 55%);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.people{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.person-img{
+  border-radius: 100%;
+  width: 50px;
+}
+
+.person-para{
+  width: 24rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Barlow";
+  color:   hsl(213, 9%, 39%);
+}
+
+.person-h4{
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Fraunces";
+  color: hsl(212, 27%, 19%);
+  margin-bottom: 1rem;
+}
+
+.person-span{
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Barlow";
+  color:   hsl(210, 4%, 67%);
+}
+/* =========================END CLIENT AREA=========================== */
+/* ==========================START PROJECT AREA========================= */
+#project{
+  display: flex;
+}
+
+.project-img{
+  width: 25%;
+}
+/* ==========================END PROJECT AREA========================= */
+/* ==========================START CONTACT AREA========================= */
+#contact{
+  text-align: center;
+  background-color: hsl(168, 34%, 41%);
+}
+
+.contact-logo{
+  margin-top: 50px;
+ filter: hue-rotate(168deg) saturate(34%) brightness(25%);
+}
+
+.contact-ul{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-a{
+  color: hsl(212, 27%, 19%);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.contact-a:hover{
+  color: white;
+}
+
+.social{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.icon{
+  margin: 2rem;
+  cursor: pointer;
+
+}
+
+.icon:hover{
+  filter: invert(0) sepia(0) saturate(1) hue-rotate(0deg) brightness(5);
+}
+
+/* ==========================END CONTACT AREA========================= */
+/* ==========================END MAIN AREA================================== */
+/* =============================START FOOTER  AREA=========================== */
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: hsl(0, 100%, 67%);
+    background-color: black;
+  }
+  
+  .foot a {
+    text-decoration: none;
+    color: hsl(39, 100%, 56%);
+  }
+  
+  .foot a:hover {
+    color: hsl(300, 69%, 71%);
+  }
+  /* =============================END FOOTER  AREA=========================== */
+  /* =============================START MEDIA QUERY=========================== */
+  @media screen and (max-width: 375px) {
+    body{
+      min-width: 375px;
+    }
+
+    header{
+      background-image: url(./images/mobile/image-header.jpg);
+      width: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      min-height: 0vh;
+    }
+
+    #about{
+      margin-top: -9.2rem;
+    }
+
+    .brand > .info-img{
+      content: url(./images/mobile/image-transform.jpg);
+    }
+    .stand > .info-img{
+      content: url(./images/mobile/image-stand-out.jpg);
+    }
+
+    .vice{
+      background-image: url(./images/mobile/image-graphic-design.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .vice1{
+      background-image: url(./images/mobile/image-photography.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      text-align: center; 
+      
+    }
+
+    .project-img:nth-child(1){
+      content: url(./images/mobile/image-gallery-milkbottles.jpg);
+    }
+    .project-img:nth-child(2){
+      content: url(./images/mobile/image-gallery-orange.jpg);
+    }
+    .project-img:nth-child(3){
+      content: url(./images/mobile/image-gallery-cone.jpg);
+    }
+    .project-img:nth-child(4){
+      content: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+    }
+
+    .bar-ul{
+      display: none;
+      flex-direction: column;
+    }
+
+    #ham{
+      display: block;
+    }
+
+   .brand{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+   }
+
+   .stand, #service, .people{
+    display: flex;
+    flex-direction: column;
+   }
+
+   #project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+    .project-img{
+      width: 100%;
+    }
+
+    .home-h1{
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+
+    .arrow{
+      margin-left: 1rem;
+      margin-top: 2.2rem;
+    }
+
+    .stand{
+      text-align: center;
+    }
+
+    .brand-para{
+      width: 19rem;
+    }
+
+    .stand-h2{
+      width: 20rem;
+    }
+
+    .stand-para{
+      width: 18rem;
+      margin-bottom: 2rem;
+    }
+
+    .vice-para, .vice1-para{
+      width: 22rem;
+      margin-left: 0px;
+      font-size: 1rem;
+    }
+
+    .client-h3{
+      font-size: 1rem;
+      letter-spacing: 0.2rem;
+    }
+
+    .people{
+      margin-top: 2rem;
+    }
+
+    .person-img{
+      margin-top: 3rem;
+    }
+
+    .person-para{
+      margin-top: 1.5rem;
+    }
+
+    .info{
+      padding: 5rem 1rem;
+    }
+
+    .info, .info-img, .vice, .vice1{
+      width: 100%;
+    }
+
+    #client{
+     margin-top:40rem;
+    }
+
+    @keyframes slide-in {
+      from{
+          transform: translateX(100%);
+      }
+      to{
+          transform: translateX(0);
+      }
+  }
+
+  @keyframes slide-out {
+      from{
+          transform: translateX(0);
+      }
+      to{
+          transform: translateX(100%);
+      }
+  }
+
+  .bar-ul{
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    height: 50vh;
+    z-index: 1;
+    width:300px;
+    right: 45px;
+    top:110px;
+    position: fixed;
+    text-align: center;
+  }
+
+  .bar-ul:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid transparent;
+    border-right:25px solid #fff;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+    top: -26px;
+    right: 0px;
+  }
+
+  .bar-li{
+    margin-top:50px;
+  }
+
+  .bar-a{
+    color: hsl(212, 27%, 19%);
+  }
+
+  .bar-a:hover{
+    padding: 1rem;
+    background-color: hsl(39, 100%, 56%);
+  }
+
+  }
+
+  @media screen and (min-width: 768px) {
+    .bar-ul {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 55px;
+    }
+    }
+  /* =============================END MEDIA QUERY=========================== */
